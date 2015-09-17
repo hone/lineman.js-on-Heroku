@@ -1,5 +1,7 @@
 # Lineman.js on the Heroku Static Buildpack
 
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+
 ## Setup
 * Create a new lineman.js app
 ```sh

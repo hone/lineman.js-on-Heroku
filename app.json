@@ -1,0 +1,13 @@
+{
+  "name": "Lineman.js on Heroku",
+  "buildpacks": [
+    { "url": "https://github.com/heroku/heroku-buildpack-nodejs" },
+    { "url": "https://github.com/hone/heroku-buildpack-static" }
+  ],
+  "env": {
+    "NPM_CONFIG_PRODUCTION": {
+      "description": "Use dev dependencies for npm",
+      "value": "false"
+    }
+  }
+}
